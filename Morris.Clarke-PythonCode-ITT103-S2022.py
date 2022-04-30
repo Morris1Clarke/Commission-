@@ -41,6 +41,8 @@ else:
 #====================== CLASS 3 ===============================
 if class6 == 3:
         print("Your Commission is: ", 0.45 * saleNum)
+elif class6 > 3:
+        print("You did not enter a valid class reference!")
 else:
         print("Press '1' to exit the Program")
 one = int(input(""))
